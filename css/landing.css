@@ -1,31 +1,90 @@
-.body-font {
+/* HTML Tag */
+header {
+  position: fixed;
+  width: 100%;
+  background: white;
+  transition: top 4s ease-in-out;
+  opacity: 0;
+  z-index: 1;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+a {
+  color: white;
+}
+
+/* Id Name */
+#body-font {
   font-family: "Nunito", sans-serif;
 }
 
-.body-bg {
+#body-bg {
+  min-width: 100%;
+  min-height: 100%;
+  height: 1080px;
   background-image: url("https://images.unsplash.com/photo-1484665739383-a1069a82d4be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.85;
+  background-size: contain;
+  background-attachment: local;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  opacity: 0.9;
+  z-index: -10;
 }
 
-.white {
+#content-container {
+  margin-top: 100px;
+}
+
+#input-container {
   background-color: white;
+  border-radius: 10px !important;
+  margin-top: 30px;
 }
 
+#landing-input {
+  margin-left: auto;
+  width: 70% !important;
+}
+
+#scroll-down-image {
+  filter: invert(85%);
+}
+
+#content-image {
+  width: 100%;
+  margin-top: 100px;
+}
+
+#pagination {
+  margin-top: 100px;
+}
+
+#footer-icon {
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Class Name */
 .text-white {
   color: white;
 }
 
-.content-margin {
-  margin-top: 18%;
+.text-gray {
+  color: gray;
 }
 
-.input-bg {
-  border-radius: 10px !important;
+.font-MateSC {
+  font-family: "Mate SC", serif;
 }
 
-.landing-input {
-  margin-left: auto;
-  width: 70% !important;
+.empty-space {
+  height: 20rem;
+  visibility: hidden;
 }
