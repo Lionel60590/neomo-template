@@ -24,3 +24,7 @@ window.onscroll = function () {
   }
   prevScrollState = currentScrollState;
 };
+
+function clickArrow() {
+  document.getElementById("main").scrollIntoView();
+}
