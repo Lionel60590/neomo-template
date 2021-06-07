@@ -2,8 +2,6 @@ const hideList = document.querySelectorAll('.hide');
         const showHide = function(){
             if(hideList){
              hideList.forEach((element) =>{
-                 console.log(window.innerHeight );
-                 console.log(element.getBoundingClientRect().top);
                 if (window.innerHeight > element.getBoundingClientRect().top) {
                         element.classList.add('show');
                 }
