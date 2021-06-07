@@ -1,3 +1,7 @@
+.text-color {
+  color: #3478df !important;
+}
+
 .btn-icons {
   display: flex;
   justify-content: center;
@@ -40,6 +44,7 @@
 }
 
 .sign-account {
+  font-size: 1rem !important;
   text-decoration: none;
 }
 
@@ -60,9 +65,16 @@
 }
 
 .checkbox-label {
-  vertical-align: bottom;
+  font-size: 0.8rem;
+  vertical-align: 0;
 }
 
-.text-color {
-  color: #3478df !important;
+.sign-input--name {
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.sign-signin {
+  font-size: 0.9rem;
+  margin: 0.5rem;
 }
