@@ -1,12 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .nav {
     border: thin solid rgba(220, 238, 243, 0.74);
     margin-top: 0;
+    
 }
 .nav-link--animation{
     font-size: 1.3rem;
     font-weight: bold;
     color : #9db9ed;
     transition: color 0.3s ease-in-out;
+    margin : 1rem 0;
 }
 
 .nav-link--animation:hover {
@@ -43,6 +53,9 @@
 
 .nav-link--animation{
     cursor: pointer;
+}
+.title {
+    font-size: 1.3rem;
 }
 
 .show-header{
