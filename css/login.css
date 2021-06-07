@@ -20,8 +20,8 @@
     border-color: rgba(0,86,179, 0.1);
 }
 
-.whith-full{
-    width: 100%;
+.width-full{
+    width: 100% !important;
 }
 
 .login-remember {

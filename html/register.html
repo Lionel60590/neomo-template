@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html charset="utf-8">
   <head>
-    <title>NEOMO-login</title>
+    <title>NEOMO-register</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
@@ -11,25 +11,33 @@
       href="https://cdn.jsdelivr.net/npm/neomo@2.0.2/dist/neomo.min.css"
     />
     <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/register.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
         </style>
   </head>
     <body class="neomo">   
         <div class="columns just-center ml-2 interval-1 mt-5">
-            <div class="column size-3">
+            <div class="column size-5">
                 <div class="card outset-neomo">
                 <header class="card-header">
-                    <p class="card-header-title text-center info font-size-4">Login</p>
+                    <p class="card-header-title text-center info font-size-4">Resigter</p>
                 </header>
                 <div class="card-content">
+                    <div class="register-input--name">Your email</div>
                     <div class="input-group outset-neomo width-full">
                         <span class="input-group-left text-center info"><i class="far fa-envelope"></i></span>
                         <input type="text" class="input-group-right outset-neomo width-full" placeholder="Your Email"/>
                     </div>
-                <div class="input-group mt-2 outset-neomo width-full">
+                    <div class="register-input--name mt-2">Your Password</div>
+                    <div class="input-group outset-neomo width-full">
                     <span class="input-group-left text-center info"><i class="fas fa-key"></i></span>
                     <input type="text" class="input-group-right outset-neomo width-full" placeholder="Password" />
+                </div>
+                <div class="register-input--name mt-2">Confirm Password</div>
+                    <div class="input-group outset-neomo width-full">
+                    <span class="input-group-left text-center info"><i class="fas fa-key"></i></span>
+                    <input type="text" class="input-group-right outset-neomo width-full" placeholder="Repeat Password" />
                 </div>
                 <div class="mt-2" >
                     <input
@@ -39,8 +47,8 @@
                         value=""
                         id="radio1"
                     />
-                    <span class="login-remember">remember me</span>
-                    <button class="button mt-2 mb-2 font-weight-2 outset-neomo width-full info font-size-6 login-button">Login</button>
+                    <span class="login-remember"> I agree to the terms and conditions</span>
+                    <button class="button mt-2 mb-2 font-weight-2 outset-neomo width-full info font-size-6 login-button">Register Account</button>
                     <div class="text-center">or</div>
                     <div class="mt-1 btn-icons"> 
                         <button class="button icon icon-size outset-neomo info" ><i class="fab fa-facebook "></i></button>
@@ -48,7 +56,8 @@
                         <button class="button icon icon-size outset-neomo info"><i class="fab fa-google "></i></button></div>
                     </div>
                     <div class="mt-1 text-column">
-                        <a href="#" class="login-link--black font-size-6 login-account">Create an account</a>
+                        <div class="resgister-login">Already have an account?</div>
+                        <a href="#" class="login-link--black font-size-6 login-account">Login here</a>
                         <a href="#" class="login-link--black font-size-6 login-forgot">Forgot password?</a>
                     </div>
                 </div>
